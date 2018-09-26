@@ -8,7 +8,7 @@ function eNumbers(n){
     }
     return false;
 }
-
+//ver si el número es primo
 function eprime(x){
     let acum = 0;
     for(var i= 0; i <= x; i++){
