@@ -2,10 +2,10 @@ function number(num){
     var y = num;
     num += "";
     var aux = num.split("").map(Number);
+    console.log(aux);
     var acum = 0;
-    for (let i = 1; i <= aux.length; i++) {
-        acum += Math.pow(aux[i], [i]);
-        console.log(acum);           
+    for (let i = 0; i < aux.length; i++) {
+        acum += Math.pow(aux[i], (i+1));              
     }
     if(acum === y){
         return true;
@@ -13,4 +13,4 @@ function number(num){
     return false;
     
 }
-console.log(number(135));
+console.log(number(80));
