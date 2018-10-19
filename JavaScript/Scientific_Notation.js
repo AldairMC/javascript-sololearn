@@ -17,9 +17,10 @@ function scientificNotatio(x){
             aux.push(w[i]);
         }    
     }
-    aux.join("").map(Number)
-    console.log(aux);
+    var z = aux.join("");
+    console.log(z);
     console.log(cont);
+    console.log(z + "*10^" + cont);
 }
 
-scientificNotatio(98700000000000);
+scientificNotatio(780000000000000);
