@@ -1,12 +1,12 @@
 function scientificNotatio(x){
-
+    var a = x;
     var cont=0;
     var aux=[]; 
     x += "";
     var w = x.split("");
     var y= x.split("").map(Number);
     console.log(y);
-    if(x > 1){
+    if(a > 1){
         for (let i = 0; i <= y.length; i++) {
             if(y[i] === 0){
                 cont++;
@@ -22,7 +22,7 @@ function scientificNotatio(x){
         console.log(cont);
         console.log(z + "*10^" + cont);    
     }
-    
+    console.log("número menor a uno");
 }
 
-scientificNotatio(780000000000000);
+scientificNotatio(15000000);
