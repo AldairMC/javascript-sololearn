@@ -22,7 +22,7 @@ function scientificNotatio(x){
         console.log(cont);
         console.log(z + "*10^" + cont);    
     }
-    console.log("número menor a uno");
+    
 }
 
 scientificNotatio(15000000);
