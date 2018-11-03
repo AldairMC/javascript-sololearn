@@ -5,12 +5,14 @@ function linear(str){
     for (let i = 0; i < str.length; i++) {
         if(!(str[i] === " ")){
             aux.push(str[i]); 
-        }   
+        }      
     }
-    for (let i = 0; i < str.length; i++) {
-        if((str[i] === "=")){
-            op.push(str[i]);
-            break;
+    var y =  aux;
+
+    for (let i = 0; i < y.length; i++) {
+        if(y[i] !== "="){
+            op.push(y[i]);
+            
         }
         
     }
