@@ -10,13 +10,14 @@ function linear(str){
     var y =  aux;
 
     for (let i = 0; i < y.length; i++) {
-        if(y[i] !== "="){
-            op.push(y[i]);
-            
+        if(y[i] === "="){
+            break;
         }
-        
+        else{
+            op.push(y[i]);
+        }
     }
-    
+
     console.log(op);
     console.log(aux);
 }
