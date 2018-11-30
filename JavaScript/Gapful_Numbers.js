@@ -1,5 +1,4 @@
 function gapN(x) {
-    
     var y = x;
     x +="";
     var aux = x.split("").map(Number);
